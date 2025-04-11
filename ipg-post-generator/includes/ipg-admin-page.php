@@ -114,7 +114,7 @@ function image_processing_in_background($image_url, $image_id, $input_tags)
 {
     // Step 1: Initialize cURL for the first API request
     $ch = curl_init();
-    $token = "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";
+    $token = "your_token";
     $url = "https://nickdigger-joy-caption-alpha-two-qa.hf.space/gradio_api/call/chat";
     if($input_tags != "") {
      $prompt = "Write a medium-length descriptive caption for this image in a casual tone and make sure you mention the image is about $input_tags. and add short title of image after title:";
