@@ -1,0 +1,83 @@
+/* Masonry specific */
+.yarpp {
+    clear: both;
+}
+.yarpp-addon {
+    max-width: 100%;
+}
+.post-inner img.alignleft, .post-inner img.alignright {
+    position: unset !important;
+    margin: unset !important;
+	width: 100% !important;
+	max-width: 100% !important;
+}
+.yarpp.yarpp-related.yarpp-related-website.yarpp-template-yarpp-template-masonay {
+    width: 94% !important;
+    max-width: 100% !important;
+    margin: 0 auto;
+}
+.yarpp-template-yarpp-template-masonay {
+    max-width: 100%;
+}
+.masonry-item-default-width {
+  width: 100%;
+}
+.masonry-item {
+    margin:0;
+    padding: 5px;
+    box-sizing: border-box;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    padding: 3px;
+}
+
+.masonry-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    display: block;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.
+ h3 {
+    text-align: center;
+}
+.infinite-scroll-status {
+    width: 100%;
+    text-align: center;
+}
+.scroll-last {
+    width: 100%;
+    text-align: center;
+}
+
+.yarpp-related-posts .masonry-sizer {
+    width: 25%; /* This ensures normal items take 25% width */
+}
+.masonry-item-iner {
+   background-color: #f2f2f2;
+   border-radius: 8px;
+   padding: 5px;
+}
+.masonry-item-iner .post-title {
+   margin: 10px 0px;
+   color: #cd2653;
+}
+
+.tags {
+   display: flex;
+   flex-wrap: wrap;
+   column-gap: 2px;
+   row-gap: 2px;
+   margin-top: 5px;
+}
+
+.post-tag {
+  padding: 5px;
+  border: 1px solid #cd2653;
+  border-radius: 9px;
+  font-size: 12px;
+  text-transform:lowercase;
+}

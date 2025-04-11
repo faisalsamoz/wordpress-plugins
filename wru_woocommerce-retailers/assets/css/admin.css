@@ -1,0 +1,15 @@
+.retailer-row{
+    width: 100%;
+    display: flex;
+}
+
+.retailer-row select,input {
+    width: 100%;
+}
+
+.retailer-row  .remove-retailer{
+    color: darkred;
+    background: transparent;
+    border: 0px;
+    cursor: pointer;
+}

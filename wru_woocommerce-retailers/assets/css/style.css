@@ -1,0 +1,29 @@
+.wru-front-end-logo{
+    width:50px;
+    height:auto;
+}
+.wru-front-end-logo-link{
+    text-decoration: none;
+}
+.wru-front-end-retailers{
+    list-style: none;
+    display: flex;
+    column-gap: 5px;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding: 0px;
+}
+.wru-retailers h3{
+    font-family: "Poppins", Sans-serif !important;
+    font-size: 24px !important;
+    font-weight: 500 !important;
+    text-transform: capitalize !important;
+    text-decoration: underline !important; 
+    margin-top: 50px !important;
+}
+.wru-retailers .clintlogo a{
+    margin-right: 20px !important;
+}
+.wru-retailers .clintlogo a:hover{
+    opacity: 0.8;
+}
