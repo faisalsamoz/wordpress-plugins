@@ -423,7 +423,7 @@ function rename_image_based_on_tags($image_id, $input_tags) {
 function generate_tags_for_image($image_url) {
     // Step 1: Initialize cURL for the first API request
     $ch = curl_init();
-    $token = "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";
+    $token = "your_token";
     $url = "https://nickdigger-joy-caption-alpha-two-qa.hf.space/gradio_api/call/chat";
 
     $data = [
